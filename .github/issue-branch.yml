@@ -22,4 +22,5 @@ branches:
   - label: bug
     prefix: bugfix/
   - label: CRITICAL
+    name: master
     prefix: hotfix/
