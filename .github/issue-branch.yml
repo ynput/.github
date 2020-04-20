@@ -12,3 +12,14 @@ jobs:
           uses: robvanderleek/create-issue-branch@master
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+silent: true
+branchName: '${issue.number}-${issue.title}'
+autoCloseIssue: true
+branches:
+  - label: enhancement
+    prefix: feature/
+  - label: bug
+    prefix: bugfix/
+  - label: CRITICAL
+    prefix: hotfix/
