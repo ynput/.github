@@ -21,6 +21,6 @@ branches:
     prefix: feature/
   - label: bug
     prefix: bugfix/
-  - label: CRITICAL
+  - label: hotfix
     name: master
     prefix: hotfix/
