@@ -14,13 +14,24 @@ jobs:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 silent: false
-branchName: '${issue.number}-${issue.title}'
+branchName: '${issue.number}-${issue.title,}'
+gitSafeReplacementChar: '-'
 autoCloseIssue: true
 branches:
   - label: enhancement
     prefix: feature/
+  - label:
+    - enhancement
+    - 2x-dev
+    prefix: feature/
+    name: 2.x/develop
   - label: bug
     prefix: bugfix/
+  - label:
+    - bug
+    - 2x-dev
+    prefix: bugfix/
+    name: 2.x/develop
   - label: hotfix
     name: master
     prefix: hotfix/
