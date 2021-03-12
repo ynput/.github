@@ -21,17 +21,23 @@ branches:
   - label:
     - enhancement
     - 2x-dev
-    prefix: feature/
+    prefix: 2.x/feature/
     name: 2.x/develop
   - label: enhancement
     prefix: feature/
   - label:
     - bug
     - 2x-dev
-    prefix: bugfix/
+    prefix: 2.x/bugfix/
     name: 2.x/develop
   - label: bug
     prefix: bugfix/
-  - label: hotfix
-    name: master
+  - label: 
+    - hotfix
+    - 2x-dev
+    name: 2.x/main
+    prefix: 2.x/hotfix/
+ - label: 
+    - hotfix
+    name: main
     prefix: hotfix/
