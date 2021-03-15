@@ -38,6 +38,6 @@ branches:
     - 2x-dev
     name: 2.x/main
     prefix: 2.x/hotfix/
- - label: hotfix
+  - label: hotfix
     name: main
     prefix: hotfix/
