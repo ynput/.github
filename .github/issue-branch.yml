@@ -24,14 +24,14 @@ branches:
     prefix: feature/
     name: 2.x/develop
   - label: enhancement
-    prefix: feature/
+    prefix: 3.0/feature/
   - label:
     - bug
     - 2x-dev
     prefix: bugfix/
     name: 2.x/develop
   - label: bug
-    prefix: bugfix/
+    prefix: 3.0/bugfix/
   - label: hotfix
     name: master
     prefix: hotfix/
