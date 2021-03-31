@@ -17,6 +17,7 @@ silent: false
 branchName: '${issue.number}-${issue.title,}'
 gitSafeReplacementChar: '-'
 autoCloseIssue: true
+openDraftPR: true
 branches:
   - label:
     - enhancement
