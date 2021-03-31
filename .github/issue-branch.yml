@@ -20,25 +20,25 @@ autoCloseIssue: true
 openDraftPR: true
 branches:
   - label:
-    - enhancement
+    - hotfix
     - 2x-dev
-    prefix: 2.x/feature/
-    name: 2.x/develop
-  - label: enhancement
-    prefix: 3.0/feature/
+    name: 2x/main
+    prefix: 2x/hotfix/
   - label:
     - bug
     - 2x-dev
-    prefix: 2.x/bugfix/
-    name: 2.x/develop
-  - label: bug
-    prefix: 3.0/bugfix/
-    name: develop
+    name: 2x/develop
+    prefix: 2x/bugfix/
   - label:
-    - hotfix
+    - enhancement
     - 2x-dev
-    name: 2.x/main
-    prefix: 2.x/hotfix/
+    name: 2x/develop
+    prefix: 2x/feature/
+  - label: enhancement
+    prefix: feature/
+  - label: bug
+    prefix: bugfix/
+    name: develop
   - label: hotfix
     name: main
     prefix: hotfix/
