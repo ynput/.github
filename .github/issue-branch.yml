@@ -17,7 +17,6 @@ silent: false
 branchName: '${issue.number}-${issue.title,}'
 gitSafeReplacementChar: '-'
 autoCloseIssue: true
-openDraftPR: true
 branches:
   - label:
     - hotfix
@@ -39,6 +38,6 @@ branches:
   - label: bug
     prefix: bugfix/
     name: develop
-  - label: hotfix
-    name: main
-    prefix: hotfix/
+  - label: documentation
+    prefix: docs/
+    name: develop
