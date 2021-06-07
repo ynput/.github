@@ -1,6 +1,4 @@
 on:
-    issues:
-        types: [assigned]
     issue_comment:
         types: [created]
 
@@ -17,6 +15,7 @@ silent: false
 branchName: '${issue.number}-${issue.title,}'
 gitSafeReplacementChar: '-'
 autoCloseIssue: true
+openDraftPR: true
 branches:
   - label:
     - hotfix
