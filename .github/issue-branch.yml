@@ -11,7 +11,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: Create Issue Branch
-          uses: robvanderleek/create-issue-branch@master
+          uses: pypeclub/create-issue-branch@master
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -20,6 +20,8 @@ branchName: '${issue.number}-${issue.title,}'
 gitSafeReplacementChar: '-'
 autoCloseIssue: true
 openDraftPR: true
+copyIssueLabelsToPR: true
+copyIssueAssigneeToPR: true
 mode: chatops
 branches:
   - label:
