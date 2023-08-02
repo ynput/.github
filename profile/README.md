@@ -9,13 +9,13 @@ The developer community is the lifeblood of our platform. We share all our devel
 
 Checkout the code of the most robust open-source pipeline platform for creative studios and remote teams. 
 
-- [OpenPype](https://github.com/ynput/OpenPype) - Main repository with AYON pipeline integrations.
-- [AYON Components](https://components.ayon.dev/) - Browser all the AYON React components (code hosted in [AYON react components](https://github.com/ynput/ayon-react-components))
+- **[AYON Docker](https://github.com/ynput/ayon-docker)** - AYON server containerized. **The easiest way to get started.**
+- **[AYON Launcher](https://github.com/ynput/ayon-launcher)** - AYON pipeline **desktop application.**
+- **[OpenPype / AYON core](https://github.com/ynput/OpenPype)** - Main repository with AYON **pipeline integrations.**
 - [AYON Backend](https://github.com/ynput/ayon-backend) - Server backend codebase with API access to AYON .
 - [AYON Frontend](https://github.com/ynput/ayon-frontend) - AYON server web interface.
 - [AYON Addons](https://github.com/search?q=topic%3Aaddon+org%3Aynput+fork%3Atrue&type=repositories) - List of all AYON addons repositories (we're still in the process of separating all of OpenPype integration into individual addons)
-- [AYON Launcher](https://github.com/ynput/ayon-launcher) - AYON pipeline desktop application.
-- [AYON Docker](https://github.com/ynput/ayon-docker) - AYON server containerized.
+- [AYON Components](https://components.ayon.dev/) - Browser all the AYON React components (code hosted in [AYON react components](https://github.com/ynput/ayon-react-components))
 - [AYON dependencies tool](https://github.com/ynput/ayon-dependencies-tool) - Utility to automated creating of python depencencies for your AYON pipeline setup.
 - [ASH](https://github.com/ynput/ash) - AYON service host is a small process that handles spawning services directly from AYON server.
 
