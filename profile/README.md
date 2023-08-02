@@ -17,7 +17,7 @@ Checkout the code of the most robust open-source pipeline platform for creative 
 - [AYON Launcher](https://github.com/ynput/ayon-launcher) - AYON pipeline desktop application.
 - [AYON Docker](https://github.com/ynput/ayon-docker) - AYON server containerized.
 - [AYON dependencies tool](https://github.com/ynput/ayon-dependencies-tool) - Utility to automated creating of python depencencies for your AYON pipeline setup.
-- [ASH] - AYON service host is a small process that handles spawning services directly from AYON server.
+- [ASH](https://github.com/ynput/ash) - AYON service host is a small process that handles spawning services directly from AYON server.
 
 [See all repositories](https://github.com/orgs/ynput/repositories)
 
