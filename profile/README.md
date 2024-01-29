@@ -17,7 +17,7 @@ Checkout the code of the most robust open-source pipeline platform for creative 
 - [AYON Frontend](https://github.com/ynput/ayon-frontend) - AYON server web interface.
 - [AYON Addons](https://github.com/search?q=topic%3Aaddon+org%3Aynput+fork%3Atrue&type=repositories) - List of all AYON addons repositories (we're still in the process of separating all of OpenPype integration into individual addons)
 - [AYON Components](https://components.ayon.dev/) - Browser all the AYON React components (code hosted in [AYON react components](https://github.com/ynput/ayon-react-components))
-- [AYON dependencies tool](https://github.com/ynput/ayon-dependencies-tool) - Utility to automated creating of python depencencies for your AYON pipeline setup.
+- [AYON dependencies tool](https://github.com/ynput/ayon-dependencies-tool) - Utility to automated creating of python dependencies for your AYON pipeline setup.
 - [ASH](https://github.com/ynput/ash) - AYON service host is a small process that handles spawning services directly from AYON server.
 
 [See all repositories](https://github.com/orgs/ynput/repositories)
