@@ -12,7 +12,7 @@ Checkout the code of the most robust open-source pipeline platform for creative 
 
 - **[AYON Docker](https://github.com/ynput/ayon-docker)** - AYON server containerized. **The easiest way to get started.**
 - **[AYON Launcher](https://github.com/ynput/ayon-launcher)** - AYON pipeline **desktop application.**
-- **[OpenPype / AYON core](https://github.com/ynput/OpenPype)** - Main repository with AYON **pipeline integrations.**
+- **[AYON core](https://github.com/ynput/ayon-core)** - Main repository with AYON **pipeline integrations.**
 - [AYON Backend](https://github.com/ynput/ayon-backend) - Server backend codebase with API access to AYON .
 - [AYON Frontend](https://github.com/ynput/ayon-frontend) - AYON server web interface.
 - [AYON Addons](https://github.com/search?q=topic%3Aaddon+org%3Aynput+fork%3Atrue&type=repositories) - List of all AYON addons repositories (we're still in the process of separating all of OpenPype integration into individual addons)
