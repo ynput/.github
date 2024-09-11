@@ -1,15 +1,34 @@
-name: Feature Request
-description: Propose a new feature
+name: Enhancement Request
 labels:
-  - "feature"
+  - "type: enhancement"
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this feature request report! Please make sure issue is not duplicated and has filled corresponding labels.
+        Thanks for taking the time to fill out this enhancement request report!
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: >-
+        Please search to see if an issue already exists for the bug you
+        encountered.
+      options:
+        - label: I have searched the existing issues and added correct labels.
+          required: true
   - type: textarea
+    id: related-feature
     attributes:
       label: Please describe the feature you have in mind and explain what the current shortcomings are?
       description: A clear and concise description of what the problem is.
     validations:
       required: true
+  - type: textarea
+    id: enhancement-proposal
+    attributes:
+      label: How would you imagine the implementation of the feature?
+      description: A clear and concise description of what you want to happen.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Describe alternatives you've considered:"
+      description: A clear and concise description of any alternative solutions or features you've considered.

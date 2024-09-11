@@ -1,15 +1,57 @@
 name: Bug Report
-description: Report an issue
+description: Report a bug
 labels:
-  - 'bug'
+  - 'type: bug'
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report! Please make sure issue is not duplicated and has filled corresponding labels.
+        Thanks for taking the time to fill out this bug report!
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: >-
+        Please search to see if an issue already exists for the bug you
+        encountered.
+      options:
+        - label: I have searched the existing issues and added correct labels.
+          required: true
   - type: textarea
     attributes:
       label: 'Description'
-      description: A concise description of issue you're facing.
+      value: |
+        ## Current Behavior
+        A concise description of what you're experiencing.
+
+        ## Expected Behavior
+        A concise description of what you expected to happen.
     validations:
       required: true
+  - type: textarea
+    id: to-reproduce
+    attributes:
+      label: 'Steps To Reproduce:'
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. How did the configuration look like
+        2. What type of action was made
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 'Additional context:'
+      value: |
+        ### Version
+        Version of the server, ayon-core and the addon that's affected
+
+        ### What platform were you running when you found the bug?
+        MacOS, Linux / Rocky9, Linux / Ubuntu, Linux / Centos, Windows
+
+        Here you can also provide any additional information relevant to the issue.
+  - type: textarea
+    id: logs
+    attributes:
+      label: 'Relevant log output:'
+      description: >-
+        Please copy and paste any relevant log output. This will be
+        automatically formatted into code, so no need for backticks.
+      render: shell
