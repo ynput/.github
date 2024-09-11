@@ -10,8 +10,7 @@ body:
     attributes:
       label: Is there an existing issue for this?
       description: >-
-        Please search to see if an issue already exists for the bug you
-        encountered.
+        Please search the reporitory to see if if this enhancement was already requested. If it does add your perspective to its comments instead of creating a new one. Also make sure, that you've added any relevant labels to this issue. 
       options:
         - label: I have searched the existing issues and added correct labels.
           required: true
@@ -25,10 +24,10 @@ body:
   - type: textarea
     id: enhancement-proposal
     attributes:
-      label: How would you imagine the implementation of the feature?
-      description: A clear and concise description of what you want to happen.
+      label: Suggested implementation?
+      description: If you have an idea about how to implement this enhancement from a technical standpoint, feel free to share any details here.
   - type: textarea
     id: alternatives
     attributes:
       label: "Describe alternatives you've considered:"
-      description: A clear and concise description of any alternative solutions or features you've considered.
+      description: A clear and concise description of any alternative solutions to the problem this would solve you've considered. Are there other approaches to get the same result. Any workarounds at the moment?

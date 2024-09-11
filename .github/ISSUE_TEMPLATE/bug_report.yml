@@ -11,7 +11,7 @@ body:
     attributes:
       label: Is there an existing issue for this?
       description: >-
-        Please search to see if an issue already exists for the bug you
+        Please, make this issue does not exist already and add any relevant labels.
         encountered.
       options:
         - label: I have searched the existing issues and added correct labels.
@@ -33,7 +33,7 @@ body:
       label: 'Steps To Reproduce:'
       description: Steps to reproduce the behavior.
       placeholder: |
-        1. How did the configuration look like
+        1. What did your configuration look like?
         2. What type of action was made
   - type: textarea
     id: additional-context
@@ -44,9 +44,13 @@ body:
         Version of the server, ayon-core and the addon that's affected
 
         ### What platform were you running when you found the bug?
-        MacOS, Linux / Rocky9, Linux / Ubuntu, Linux / Centos, Windows
+	Windows
+        Linux - Rocky9
+        Linux - Ubuntu
+        Linux - Centos
+        MacOS
 
-        Here you can also provide any additional information relevant to the issue.
+        You can also provide any additional information relevant to the issue.
   - type: textarea
     id: logs
     attributes:
