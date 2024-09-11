@@ -1,8 +1,8 @@
 ## Changelog Description
-Paragraphs contain detailed information on the changes made to the product or service, providing an in-depth description of the updates and enhancements. They can be used to explain the reasoning behind the changes, or to highlight the importance of the new features. Paragraphs can often include links to further information or support documentation.
+Brief description of the solution this PR is implementing. This should be only a few sentences and it will be publicly visible in the changelog. You can highlight importance of the change and add links to further information or supporting documentation
 
-## Additional info
-Paragraphs of text giving context of additional technical information or code examples.
+## Additional review information
+Detailed information of the changes made to the product or service, providing an in-depth description of the updates and enhancements. This can include technical information, code examples, testing notes and anything else needed for the review of the PR.
 
 ## Testing notes:
 1. start with this step
