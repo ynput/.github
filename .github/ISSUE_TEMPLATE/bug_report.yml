@@ -44,7 +44,7 @@ body:
         Version of the server, ayon-core and the addon that's affected
 
         ### What platform were you running when you found the bug?
-	Windows
+        Windows
         Linux - Rocky9
         Linux - Ubuntu
         MacOS
