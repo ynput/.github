@@ -10,7 +10,7 @@ body:
     attributes:
       label: Is there an existing issue for this?
       description: >-
-        Please search the reporitory to see if if this enhancement was already requested. If it does add your perspective to its comments instead of creating a new one. Also make sure, that you've added any relevant labels to this issue. 
+        Please search the repository to see if if this enhancement was already requested. If it does, add your perspective to its comments instead of creating a new one. Also make sure, that you've added any relevant labels to this issue. 
       options:
         - label: I have searched the existing issues and added correct labels.
           required: true
