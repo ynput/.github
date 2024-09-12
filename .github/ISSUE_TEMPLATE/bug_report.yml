@@ -11,7 +11,7 @@ body:
     attributes:
       label: Is there an existing issue for this?
       description: >-
-        Please, make this issue does not exist already and add any relevant labels.
+        Please, make sure this issue does not exist already and add any relevant labels.
         encountered.
       options:
         - label: I have searched the existing issues and added correct labels.
