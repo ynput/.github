@@ -30,4 +30,4 @@ body:
     id: alternatives
     attributes:
       label: "Describe alternatives you've considered:"
-      description: A clear and concise description of any alternative solutions to the problem this would solve you've considered. Are there other approaches to get the same result. Any workarounds at the moment?
+      description: A clear and concise description of any alternative solutions to the problem you've considered. Are there other approaches to get the same result. Any workarounds at the moment?
