@@ -1,6 +1,7 @@
 name: Enhancement Request
 labels:
   - "type: enhancement"
+description: Improvement or a new feature
 body:
   - type: markdown
     attributes:
